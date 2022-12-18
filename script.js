@@ -34,7 +34,7 @@ setInterval(() => {
     mydate = a.toLocaleDateString(undefined, option);
     times = hours + ":" + minutes + ":" + seconds + " " + meridian
     document.getElementById('time').innerHTML = times + "<br>" + mydate
-}, 10);
+}, 1000);
 
 
 /* --------------=========typing animation=======----------------*/
